@@ -1,0 +1,41 @@
+# Игнорировать собранные файлы
+bin/
+obj/
+
+# Игнорировать файлы конфигурации Visual Studio
+.vs/
+*.suo
+*.user
+*.userprefs
+*.psess
+*.vsp
+
+# Игнорировать временные файлы
+**/*.log
+**/*.sqlite
+**/*.sqlite-shm
+**/*.sqlite-wal
+**/.DS_Store
+**/*.bak
+*.bak
+*.tmp
+
+# Игнорировать некоторые расширения файлов
+*.bak
+*.cache
+*.csproj.user
+*.dll
+*.exe
+*.mdb
+*.ncrunchsolution
+*.pdb
+*.sqlite
+*.suo
+*.vspscc
+*.vssscc
+
+# Игнорировать nuget packages
+packages/
+*.nupkg
+*.paket
+*.lock
