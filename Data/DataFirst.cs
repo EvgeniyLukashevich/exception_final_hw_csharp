@@ -8,7 +8,7 @@ namespace personDataInput.Data
 {
     public class DataFirst : BaseData
     {
-        private string dataPath = Path.Combine(Environment.CurrentDirectory, "database/");
+        private string dataPath = Path.Combine(Environment.CurrentDirectory, "database\\");
         private char delimiter = '_';
 
 
